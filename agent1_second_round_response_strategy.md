@@ -229,3 +229,20 @@ We sincerely thank you for the careful second-round review and for highlighting 
 ## Bottom Line For The Revision
 
 The safest strategy is to present the study as an exploratory, internally validated, single-center proof-of-concept for multimodal preoperative AKI risk prediction. The response should not defend the current model as clinically ready. It should show the reviewer that the authors understand the limits, have added fair comparisons and clinical evaluation where possible, and have restrained the manuscript's claims accordingly.
+
+## Agent 2 Evidence Integrated On 2026-06-14
+
+Agent 2's verified second-revision outputs are now available under `D:\AKI\aki-master\aki-master\second_revision_results` and are incorporated into `D:\AKI\second_revision_response_draft.md`.
+
+Key values to use in the response:
+
+- 194 raw rows; 1 excluded because sequence number or postoperative AKI label was missing; 193 rows analyzed for tabular baseline models.
+- Outcome distribution: 132 postoperative AKI-positive and 61 postoperative AKI-negative.
+- Image audit: 183 JPG files and 181 TXT annotation files; clinical records without JPG files were 14, 47, 88, 97, 99, 100, 125, 173, 174, and 175; JPG files without TXT annotation were 101 and 164.
+- Best classical baseline: gradient boosting, AUC 0.636, bootstrap 95% CI 0.548-0.718, Brier score 0.223, MCC 0.172.
+- Repeated stratified 5-fold CV with 5 repeats: gradient boosting mean AUC 0.628 +/- 0.084 SD; random forest mean AUC 0.620 +/- 0.087 SD.
+- Calibration and DCA figures are available as `baseline_calibration_curves.png` and `decision_curve_analysis.png`.
+
+Interpretation constraint:
+
+- These results are internal validation only. They should be used to strengthen transparency and temper claims, not to imply external validity or proven clinical utility.
