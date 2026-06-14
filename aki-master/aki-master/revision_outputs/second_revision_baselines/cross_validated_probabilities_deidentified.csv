@@ -1,0 +1,773 @@
+﻿model,fold,y_true,probability
+Penalized logistic regression,1,0,0.38720464807866456
+Penalized logistic regression,1,0,0.49619430922178737
+Penalized logistic regression,1,0,0.4897961671795235
+Penalized logistic regression,1,1,0.7446123731769253
+Penalized logistic regression,1,0,0.5878977227153293
+Penalized logistic regression,1,1,0.5683682989366969
+Penalized logistic regression,1,1,0.6997293685343092
+Penalized logistic regression,1,0,0.5961238128103177
+Penalized logistic regression,1,0,0.5770068196927792
+Penalized logistic regression,1,1,0.41860342391488475
+Penalized logistic regression,1,0,0.3776363584504461
+Penalized logistic regression,1,1,0.38463284045772617
+Penalized logistic regression,1,1,0.38417104954660153
+Penalized logistic regression,1,1,0.3490640067597272
+Penalized logistic regression,1,1,0.5638279037756728
+Penalized logistic regression,1,1,0.4161733536454477
+Penalized logistic regression,1,1,0.5289257787263965
+Penalized logistic regression,1,1,0.47797619497510213
+Penalized logistic regression,1,1,0.5608228134489981
+Penalized logistic regression,1,1,0.525899709807442
+Penalized logistic regression,1,1,0.3765255314176084
+Penalized logistic regression,1,0,0.6001132053844299
+Penalized logistic regression,1,0,0.3858171515845236
+Penalized logistic regression,1,1,0.5097531615068885
+Penalized logistic regression,1,1,0.500643871783834
+Penalized logistic regression,1,0,0.4894797620179354
+Penalized logistic regression,1,0,0.7199223199057191
+Penalized logistic regression,1,0,0.8306121800842322
+Penalized logistic regression,1,1,0.678772353700098
+Penalized logistic regression,1,1,0.7168959265671235
+Penalized logistic regression,1,1,0.628938030886129
+Penalized logistic regression,1,1,0.4299460049410955
+Penalized logistic regression,1,1,0.21465642603257512
+Penalized logistic regression,1,1,0.6161891480603496
+Penalized logistic regression,1,1,0.3895612649813002
+Penalized logistic regression,1,1,0.2797309360198431
+Penalized logistic regression,1,1,0.26278980358636084
+Penalized logistic regression,1,0,0.449141204973556
+Penalized logistic regression,1,1,0.5314274763079584
+Random forest,1,0,0.4669680737909137
+Random forest,1,0,0.27267708828852255
+Random forest,1,0,0.5001605567521884
+Random forest,1,1,0.6047727722530691
+Random forest,1,0,0.5475784474299216
+Random forest,1,1,0.5146548481816178
+Random forest,1,1,0.6204993135662347
+Random forest,1,0,0.5501672216125504
+Random forest,1,0,0.3946146916867753
+Random forest,1,1,0.5785218698458715
+Random forest,1,0,0.6600293006974001
+Random forest,1,1,0.7105282550967604
+Random forest,1,1,0.6236349357569708
+Random forest,1,1,0.4035618127241708
+Random forest,1,1,0.7873334134358194
+Random forest,1,1,0.3884856171432616
+Random forest,1,1,0.6457294988750102
+Random forest,1,1,0.6158938690438428
+Random forest,1,1,0.7261659267812545
+Random forest,1,1,0.48005879709647775
+Random forest,1,1,0.5513823860991992
+Random forest,1,0,0.6633749265280147
+Random forest,1,0,0.5447210593705469
+Random forest,1,1,0.5087902301438879
+Random forest,1,1,0.6877987794416652
+Random forest,1,0,0.47223385833088194
+Random forest,1,0,0.5941908312316603
+Random forest,1,0,0.6225908340424451
+Random forest,1,1,0.502218398681344
+Random forest,1,1,0.7916697142814637
+Random forest,1,1,0.7302783392848287
+Random forest,1,1,0.5783004851990037
+Random forest,1,1,0.5569523519763153
+Random forest,1,1,0.7413118893948503
+Random forest,1,1,0.5405168297919194
+Random forest,1,1,0.5081933727903863
+Random forest,1,1,0.5234713347912543
+Random forest,1,0,0.5894827228572995
+Random forest,1,1,0.4317102028733726
+Gradient boosting,1,0,0.4440588819874823
+Gradient boosting,1,0,0.2232713653113305
+Gradient boosting,1,0,0.6300347121334551
+Gradient boosting,1,1,0.7956935095649559
+Gradient boosting,1,0,0.7898450247911052
+Gradient boosting,1,1,0.4096499231007592
+Gradient boosting,1,1,0.8018476550398046
+Gradient boosting,1,0,0.6703307681392613
+Gradient boosting,1,0,0.26885799266622995
+Gradient boosting,1,1,0.8019442137505707
+Gradient boosting,1,0,0.7958189609660553
+Gradient boosting,1,1,0.7994530878613173
+Gradient boosting,1,1,0.739231291686818
+Gradient boosting,1,1,0.5903438324192152
+Gradient boosting,1,1,0.8530168131539093
+Gradient boosting,1,1,0.43208301900586693
+Gradient boosting,1,1,0.8852262551096709
+Gradient boosting,1,1,0.7967920291774989
+Gradient boosting,1,1,0.8743444351549473
+Gradient boosting,1,1,0.6046393624398584
+Gradient boosting,1,1,0.6548340417325044
+Gradient boosting,1,0,0.8321264320650557
+Gradient boosting,1,0,0.5845430792392441
+Gradient boosting,1,1,0.703931448433629
+Gradient boosting,1,1,0.8026050942294927
+Gradient boosting,1,0,0.5597889454139441
+Gradient boosting,1,0,0.5597563779074881
+Gradient boosting,1,0,0.67825358856578
+Gradient boosting,1,1,0.5172377003868929
+Gradient boosting,1,1,0.894184944081548
+Gradient boosting,1,1,0.8436507072668399
+Gradient boosting,1,1,0.7551921898555526
+Gradient boosting,1,1,0.6754594655019552
+Gradient boosting,1,1,0.8705879119521968
+Gradient boosting,1,1,0.7165978567389316
+Gradient boosting,1,1,0.6399131130642581
+Gradient boosting,1,1,0.6938834211321895
+Gradient boosting,1,0,0.660110953151485
+Gradient boosting,1,1,0.5012572670191795
+Support vector machine,1,0,0.4276449045030489
+Support vector machine,1,0,0.42563245978084724
+Support vector machine,1,0,0.746743979184379
+Support vector machine,1,1,0.7691028592402975
+Support vector machine,1,0,0.7306643373717394
+Support vector machine,1,1,0.8120574499752118
+Support vector machine,1,1,0.577618370496941
+Support vector machine,1,0,0.812853139013216
+Support vector machine,1,0,0.48977240113917464
+Support vector machine,1,1,0.6233226583863084
+Support vector machine,1,0,0.7873500168309234
+Support vector machine,1,1,0.6541430246517637
+Support vector machine,1,1,0.6460598188237685
+Support vector machine,1,1,0.7312154251301483
+Support vector machine,1,1,0.7942314387792566
+Support vector machine,1,1,0.4643207067007866
+Support vector machine,1,1,0.7603940399515301
+Support vector machine,1,1,0.7452482446850652
+Support vector machine,1,1,0.7770352011471439
+Support vector machine,1,1,0.7431775831131511
+Support vector machine,1,1,0.5838766649813184
+Support vector machine,1,0,0.7246138666946925
+Support vector machine,1,0,0.7512562095325627
+Support vector machine,1,1,0.733182709246178
+Support vector machine,1,1,0.847945815161091
+Support vector machine,1,0,0.5753677550933527
+Support vector machine,1,0,0.819911867292513
+Support vector machine,1,0,0.7733766023836349
+Support vector machine,1,1,0.800720441163628
+Support vector machine,1,1,0.811287522435487
+Support vector machine,1,1,0.8174544542018967
+Support vector machine,1,1,0.6236934095343004
+Support vector machine,1,1,0.6237009340357681
+Support vector machine,1,1,0.7056229653441998
+Support vector machine,1,1,0.6217384905721075
+Support vector machine,1,1,0.636572361736307
+Support vector machine,1,1,0.5982937383394726
+Support vector machine,1,0,0.7715242489681309
+Support vector machine,1,1,0.6771327957872313
+Penalized logistic regression,2,0,0.42093277872752155
+Penalized logistic regression,2,0,0.9943271245680735
+Penalized logistic regression,2,0,0.4394560814710002
+Penalized logistic regression,2,1,0.4902101653505291
+Penalized logistic regression,2,0,0.9993686111877098
+Penalized logistic regression,2,1,0.5428468957960693
+Penalized logistic regression,2,1,0.4772348431367398
+Penalized logistic regression,2,1,0.5747727901664765
+Penalized logistic regression,2,1,0.25417563164242896
+Penalized logistic regression,2,1,0.49411741044373114
+Penalized logistic regression,2,1,0.4051307228803627
+Penalized logistic regression,2,1,0.6423796475928948
+Penalized logistic regression,2,1,0.5550989579548248
+Penalized logistic regression,2,1,0.33479249922906373
+Penalized logistic regression,2,0,0.4317441404679097
+Penalized logistic regression,2,1,0.41306975864544637
+Penalized logistic regression,2,1,0.48944041253536236
+Penalized logistic regression,2,0,0.6400173506666786
+Penalized logistic regression,2,1,0.5491859824517898
+Penalized logistic regression,2,1,0.5763452778314195
+Penalized logistic regression,2,1,0.5771902964936637
+Penalized logistic regression,2,1,0.7529268240584853
+Penalized logistic regression,2,1,0.5252221124610004
+Penalized logistic regression,2,0,0.4845422450479383
+Penalized logistic regression,2,0,0.3968665577675637
+Penalized logistic regression,2,0,0.5189866348047536
+Penalized logistic regression,2,0,0.48978622263248095
+Penalized logistic regression,2,1,0.397512159646803
+Penalized logistic regression,2,1,0.6310173983912706
+Penalized logistic regression,2,1,0.3017041082355241
+Penalized logistic regression,2,0,0.5205843129798846
+Penalized logistic regression,2,1,0.5978090483277197
+Penalized logistic regression,2,1,0.6598555249195504
+Penalized logistic regression,2,1,0.5711160357977785
+Penalized logistic regression,2,1,0.7318858726717179
+Penalized logistic regression,2,1,0.20368959667166642
+Penalized logistic regression,2,1,0.7404533804850121
+Penalized logistic regression,2,0,0.5084322974970031
+Penalized logistic regression,2,1,0.611342188708328
+Random forest,2,0,0.5879365978109663
+Random forest,2,0,0.476888783220934
+Random forest,2,0,0.790887647910551
+Random forest,2,1,0.5703439385605503
+Random forest,2,0,0.4922263106024567
+Random forest,2,1,0.7494028426223598
+Random forest,2,1,0.6247701712987194
+Random forest,2,1,0.7650659812782205
+Random forest,2,1,0.7722685046899749
+Random forest,2,1,0.6680051529074152
+Random forest,2,1,0.8445208574560058
+Random forest,2,1,0.9149002836465024
+Random forest,2,1,0.902076981717788
+Random forest,2,1,0.7023581965390228
+Random forest,2,0,0.7244746468069345
+Random forest,2,1,0.2907066283483001
+Random forest,2,1,0.7437367151012702
+Random forest,2,0,0.6557595421040257
+Random forest,2,1,0.4480727033761307
+Random forest,2,1,0.8623726829928001
+Random forest,2,1,0.6492700345294583
+Random forest,2,1,0.7595904361097008
+Random forest,2,1,0.5135473928499861
+Random forest,2,0,0.7574653351017681
+Random forest,2,0,0.6509080900348732
+Random forest,2,0,0.6821721655578459
+Random forest,2,0,0.7654079276028041
+Random forest,2,1,0.7953881466580542
+Random forest,2,1,0.7934200548360986
+Random forest,2,1,0.5520165526834955
+Random forest,2,0,0.6016441222302924
+Random forest,2,1,0.7935191084902828
+Random forest,2,1,0.6369690941397446
+Random forest,2,1,0.740409428375338
+Random forest,2,1,0.849364077451033
+Random forest,2,1,0.7706546349364088
+Random forest,2,1,0.7395587713189155
+Random forest,2,0,0.8144366385259649
+Random forest,2,1,0.710686184054227
+Gradient boosting,2,0,0.7252179083474704
+Gradient boosting,2,0,0.654943636937295
+Gradient boosting,2,0,0.7376333604490554
+Gradient boosting,2,1,0.5891352911571072
+Gradient boosting,2,0,0.654943636937295
+Gradient boosting,2,1,0.8440565615717132
+Gradient boosting,2,1,0.6317182918617723
+Gradient boosting,2,1,0.7327011000353622
+Gradient boosting,2,1,0.7910645398374477
+Gradient boosting,2,1,0.6864418841132695
+Gradient boosting,2,1,0.7885285852787416
+Gradient boosting,2,1,0.816271944856659
+Gradient boosting,2,1,0.8122870190098961
+Gradient boosting,2,1,0.7182366693274242
+Gradient boosting,2,0,0.7798096163495106
+Gradient boosting,2,1,0.14966048805914645
+Gradient boosting,2,1,0.7637647968221444
+Gradient boosting,2,0,0.7266993817875118
+Gradient boosting,2,1,0.3730390398362873
+Gradient boosting,2,1,0.7623805552448045
+Gradient boosting,2,1,0.5845659693237528
+Gradient boosting,2,1,0.8155292337296758
+Gradient boosting,2,1,0.613137330630315
+Gradient boosting,2,0,0.801037640371001
+Gradient boosting,2,0,0.641082775617398
+Gradient boosting,2,0,0.7302149123047534
+Gradient boosting,2,0,0.7718240982471892
+Gradient boosting,2,1,0.8081182071384433
+Gradient boosting,2,1,0.8158861882466578
+Gradient boosting,2,1,0.6172886008524004
+Gradient boosting,2,0,0.7229909038318928
+Gradient boosting,2,1,0.74384151347806
+Gradient boosting,2,1,0.7349263987882779
+Gradient boosting,2,1,0.7341684262065725
+Gradient boosting,2,1,0.7514307309369164
+Gradient boosting,2,1,0.7456227072212439
+Gradient boosting,2,1,0.6586758512422192
+Gradient boosting,2,0,0.8309225430988134
+Gradient boosting,2,1,0.7333578201341553
+Support vector machine,2,0,0.6585604359309758
+Support vector machine,2,0,0.6745113869018676
+Support vector machine,2,0,0.6875889357059153
+Support vector machine,2,1,0.6583657184656854
+Support vector machine,2,0,0.6745113592762119
+Support vector machine,2,1,0.7179552775058955
+Support vector machine,2,1,0.667119299418801
+Support vector machine,2,1,0.7040223636252207
+Support vector machine,2,1,0.6685542030054334
+Support vector machine,2,1,0.7101895669822956
+Support vector machine,2,1,0.7465452480669482
+Support vector machine,2,1,0.7479237270937764
+Support vector machine,2,1,0.6952446297699466
+Support vector machine,2,1,0.6832512998778085
+Support vector machine,2,0,0.6638321537733465
+Support vector machine,2,1,0.6013468758291172
+Support vector machine,2,1,0.6988047159772505
+Support vector machine,2,0,0.6963780197296561
+Support vector machine,2,1,0.6544036472872342
+Support vector machine,2,1,0.6682784096702414
+Support vector machine,2,1,0.6834059656220324
+Support vector machine,2,1,0.6709383366295908
+Support vector machine,2,1,0.6475815817568955
+Support vector machine,2,0,0.6834572392729751
+Support vector machine,2,0,0.6491007436172113
+Support vector machine,2,0,0.6713141219177454
+Support vector machine,2,0,0.7017776478931237
+Support vector machine,2,1,0.6733956009333324
+Support vector machine,2,1,0.7459289427280651
+Support vector machine,2,1,0.6276325350464008
+Support vector machine,2,0,0.6459545838185222
+Support vector machine,2,1,0.677135617909441
+Support vector machine,2,1,0.6770283089838219
+Support vector machine,2,1,0.7344126660873651
+Support vector machine,2,1,0.7511687066875342
+Support vector machine,2,1,0.6851666598376115
+Support vector machine,2,1,0.7158309645391985
+Support vector machine,2,0,0.721631099766964
+Support vector machine,2,1,0.6664806791004234
+Penalized logistic regression,3,1,0.5135326812290261
+Penalized logistic regression,3,0,0.5135326812290261
+Penalized logistic regression,3,0,0.5135326812290261
+Penalized logistic regression,3,1,0.5135326812290261
+Penalized logistic regression,3,0,0.5135326812290261
+Penalized logistic regression,3,1,0.5135326812290261
+Penalized logistic regression,3,1,0.5135326812290261
+Penalized logistic regression,3,1,0.5135326812290261
+Penalized logistic regression,3,1,0.5135326812290261
+Penalized logistic regression,3,1,0.5135326812290261
+Penalized logistic regression,3,1,0.5135326812290261
+Penalized logistic regression,3,0,0.5135326812290261
+Penalized logistic regression,3,1,0.5135326812290261
+Penalized logistic regression,3,1,0.5135326812290261
+Penalized logistic regression,3,0,0.5135326812290261
+Penalized logistic regression,3,0,0.5135326812290261
+Penalized logistic regression,3,1,0.5135326812290261
+Penalized logistic regression,3,0,0.5135326812290261
+Penalized logistic regression,3,1,0.5135326812290261
+Penalized logistic regression,3,1,0.5135326812290261
+Penalized logistic regression,3,1,0.5135326812290261
+Penalized logistic regression,3,1,0.5135326812290261
+Penalized logistic regression,3,1,0.5135326812290261
+Penalized logistic regression,3,0,0.5135326812290261
+Penalized logistic regression,3,0,0.5135326812290261
+Penalized logistic regression,3,1,0.5135326812290261
+Penalized logistic regression,3,1,0.5135326812290261
+Penalized logistic regression,3,1,0.5135326812290261
+Penalized logistic regression,3,1,0.5135326812290261
+Penalized logistic regression,3,1,0.5135326812290261
+Penalized logistic regression,3,1,0.5135326812290261
+Penalized logistic regression,3,1,0.5135326812290261
+Penalized logistic regression,3,0,0.5135326812290261
+Penalized logistic regression,3,1,0.5135326812290261
+Penalized logistic regression,3,1,0.5135326812290261
+Penalized logistic regression,3,1,0.5135326812290261
+Penalized logistic regression,3,1,0.5135326812290261
+Penalized logistic regression,3,0,0.5135326812290261
+Penalized logistic regression,3,0,0.5135326812290261
+Random forest,3,1,0.3174764434806741
+Random forest,3,0,0.9669139518067117
+Random forest,3,0,0.35234843895458146
+Random forest,3,1,0.8667570465776079
+Random forest,3,0,0.7175074355369816
+Random forest,3,1,0.8527757829315387
+Random forest,3,1,0.5504340561691037
+Random forest,3,1,0.9634560448058176
+Random forest,3,1,0.9658211153407986
+Random forest,3,1,0.8017546544817016
+Random forest,3,1,0.77360794878134
+Random forest,3,0,0.5019014631448676
+Random forest,3,1,0.9726817440639447
+Random forest,3,1,0.7133089396851151
+Random forest,3,0,0.7907629510757374
+Random forest,3,0,0.9274875242240443
+Random forest,3,1,0.9278055857587473
+Random forest,3,0,0.74947833423527
+Random forest,3,1,0.5864654308500521
+Random forest,3,1,0.4243900669604283
+Random forest,3,1,0.7388912096071215
+Random forest,3,1,0.5014669128812859
+Random forest,3,1,0.3023412686380963
+Random forest,3,0,0.5605464989466784
+Random forest,3,0,0.6762908294887247
+Random forest,3,1,0.5491117643160492
+Random forest,3,1,0.7406426920995716
+Random forest,3,1,0.6431569365510291
+Random forest,3,1,0.3029444294574217
+Random forest,3,1,0.6638241915307748
+Random forest,3,1,0.7304992981671146
+Random forest,3,1,0.9603176356790414
+Random forest,3,0,0.6976177466352481
+Random forest,3,1,0.8834033378089707
+Random forest,3,1,0.5860497049500399
+Random forest,3,1,0.5616635669940979
+Random forest,3,1,0.41013408995205236
+Random forest,3,0,0.5045002221685044
+Random forest,3,0,0.8952801545869821
+Gradient boosting,3,1,0.25918131677203066
+Gradient boosting,3,0,0.9085467740585225
+Gradient boosting,3,0,0.35605928921974866
+Gradient boosting,3,1,0.8964425807271555
+Gradient boosting,3,0,0.7720010044508826
+Gradient boosting,3,1,0.9575887001071102
+Gradient boosting,3,1,0.8140084217730235
+Gradient boosting,3,1,0.9584872102820906
+Gradient boosting,3,1,0.952090322742122
+Gradient boosting,3,1,0.8261828210450389
+Gradient boosting,3,1,0.8963496731668832
+Gradient boosting,3,0,0.4702334934492087
+Gradient boosting,3,1,0.9629937686813199
+Gradient boosting,3,1,0.7158473422763523
+Gradient boosting,3,0,0.8851923850979649
+Gradient boosting,3,0,0.968509763452187
+Gradient boosting,3,1,0.9700874525473404
+Gradient boosting,3,0,0.6034885763288385
+Gradient boosting,3,1,0.7835050930187345
+Gradient boosting,3,1,0.6942923930910041
+Gradient boosting,3,1,0.8039047907319665
+Gradient boosting,3,1,0.8121296210705594
+Gradient boosting,3,1,0.3086485023756959
+Gradient boosting,3,0,0.4097284494681442
+Gradient boosting,3,0,0.8378612282365634
+Gradient boosting,3,1,0.5349680194048824
+Gradient boosting,3,1,0.712058069877749
+Gradient boosting,3,1,0.6889038531676716
+Gradient boosting,3,1,0.3756005213358599
+Gradient boosting,3,1,0.6344821706786334
+Gradient boosting,3,1,0.7415422797441299
+Gradient boosting,3,1,0.9629937686813199
+Gradient boosting,3,0,0.8943979321255618
+Gradient boosting,3,1,0.89166474099736
+Gradient boosting,3,1,0.8518610026894493
+Gradient boosting,3,1,0.6848404724281163
+Gradient boosting,3,1,0.43395364520832275
+Gradient boosting,3,0,0.4937951656824158
+Gradient boosting,3,0,0.9529901044350801
+Support vector machine,3,1,0.6688433263182537
+Support vector machine,3,0,0.77714206169262
+Support vector machine,3,0,0.716106471254819
+Support vector machine,3,1,0.7054217498192648
+Support vector machine,3,0,0.6671499632789127
+Support vector machine,3,1,0.7045577439582422
+Support vector machine,3,1,0.7306593699934044
+Support vector machine,3,1,0.806704006345857
+Support vector machine,3,1,0.7430490833521143
+Support vector machine,3,1,0.7360968039638417
+Support vector machine,3,1,0.706631924145889
+Support vector machine,3,0,0.7867699365915549
+Support vector machine,3,1,0.7641950321311041
+Support vector machine,3,1,0.6688355136002929
+Support vector machine,3,0,0.6480737740834065
+Support vector machine,3,0,0.7625477248835483
+Support vector machine,3,1,0.7083493665713855
+Support vector machine,3,0,0.6221437678142888
+Support vector machine,3,1,0.6532372773630746
+Support vector machine,3,1,0.7353479244594093
+Support vector machine,3,1,0.6820143981257389
+Support vector machine,3,1,0.7196997033073246
+Support vector machine,3,1,0.6747128779586286
+Support vector machine,3,0,0.5580906060482033
+Support vector machine,3,0,0.6747643472797502
+Support vector machine,3,1,0.6127486237433561
+Support vector machine,3,1,0.6906453006869028
+Support vector machine,3,1,0.662085498932869
+Support vector machine,3,1,0.7093644871374865
+Support vector machine,3,1,0.7481186338643085
+Support vector machine,3,1,0.7254584286097999
+Support vector machine,3,1,0.7782085240504263
+Support vector machine,3,0,0.7003753297664566
+Support vector machine,3,1,0.7416532455762798
+Support vector machine,3,1,0.6944877625745939
+Support vector machine,3,1,0.567210607617833
+Support vector machine,3,1,0.6460721621939266
+Support vector machine,3,0,0.7489989631475306
+Support vector machine,3,0,0.6443152933037031
+Penalized logistic regression,4,0,0.48952302482882265
+Penalized logistic regression,4,1,0.48952302482882265
+Penalized logistic regression,4,1,0.48952302482882265
+Penalized logistic regression,4,0,0.48952302482882265
+Penalized logistic regression,4,1,0.48952302482882265
+Penalized logistic regression,4,0,0.48952302482882265
+Penalized logistic regression,4,1,0.48952302482882265
+Penalized logistic regression,4,0,0.48952302482882265
+Penalized logistic regression,4,1,0.48952302482882265
+Penalized logistic regression,4,1,0.48952302482882265
+Penalized logistic regression,4,1,0.48952302482882265
+Penalized logistic regression,4,1,0.48952302482882265
+Penalized logistic regression,4,0,0.48952302482882265
+Penalized logistic regression,4,1,0.48952302482882265
+Penalized logistic regression,4,1,0.48952302482882265
+Penalized logistic regression,4,0,0.48952302482882265
+Penalized logistic regression,4,1,0.48952302482882265
+Penalized logistic regression,4,1,0.48952302482882265
+Penalized logistic regression,4,1,0.48952302482882265
+Penalized logistic regression,4,0,0.48952302482882265
+Penalized logistic regression,4,1,0.48952302482882265
+Penalized logistic regression,4,0,0.48952302482882265
+Penalized logistic regression,4,1,0.48952302482882265
+Penalized logistic regression,4,1,0.48952302482882265
+Penalized logistic regression,4,1,0.48952302482882265
+Penalized logistic regression,4,1,0.48952302482882265
+Penalized logistic regression,4,0,0.48952302482882265
+Penalized logistic regression,4,0,0.48952302482882265
+Penalized logistic regression,4,1,0.48952302482882265
+Penalized logistic regression,4,0,0.48952302482882265
+Penalized logistic regression,4,1,0.48952302482882265
+Penalized logistic regression,4,1,0.48952302482882265
+Penalized logistic regression,4,1,0.48952302482882265
+Penalized logistic regression,4,1,0.48952302482882265
+Penalized logistic regression,4,1,0.48952302482882265
+Penalized logistic regression,4,1,0.48952302482882265
+Penalized logistic regression,4,0,0.48952302482882265
+Penalized logistic regression,4,1,0.48952302482882265
+Random forest,4,0,0.3929432884037795
+Random forest,4,1,0.5891323961309151
+Random forest,4,1,0.43695670236877177
+Random forest,4,0,0.38850019423803467
+Random forest,4,1,0.6892463435908831
+Random forest,4,0,0.4714121811897548
+Random forest,4,1,0.5966770082090815
+Random forest,4,0,0.32754495636746583
+Random forest,4,1,0.38907147075044574
+Random forest,4,1,0.9441469707375719
+Random forest,4,1,0.8198053686556084
+Random forest,4,1,0.8478266369621006
+Random forest,4,0,0.7273851337136612
+Random forest,4,1,0.9264962938109121
+Random forest,4,1,0.8248301517750922
+Random forest,4,0,0.6336543475830361
+Random forest,4,1,0.879394766349172
+Random forest,4,1,0.7941825768927604
+Random forest,4,1,0.525423411817526
+Random forest,4,0,0.6269039288922678
+Random forest,4,1,0.8698967302663579
+Random forest,4,0,0.6918717288030871
+Random forest,4,1,0.37732645863626657
+Random forest,4,1,0.4114597311250849
+Random forest,4,1,0.6367884882830251
+Random forest,4,1,0.5858517932329349
+Random forest,4,0,0.7241861478305991
+Random forest,4,0,0.8416380058871671
+Random forest,4,1,0.39251804421790343
+Random forest,4,0,0.2761962415798165
+Random forest,4,1,0.2303540212512921
+Random forest,4,1,0.2634470609413621
+Random forest,4,1,0.8813254706106478
+Random forest,4,1,0.7251252903788349
+Random forest,4,1,0.5808900094136298
+Random forest,4,1,0.3561337607833271
+Random forest,4,0,0.25592596878102447
+Random forest,4,1,0.49561409917017907
+Gradient boosting,4,0,0.5580447738088355
+Gradient boosting,4,1,0.5587132347818683
+Gradient boosting,4,1,0.3933941952663596
+Gradient boosting,4,0,0.313835269379339
+Gradient boosting,4,1,0.75192938783029
+Gradient boosting,4,0,0.9355802340601495
+Gradient boosting,4,1,0.7014745235775035
+Gradient boosting,4,0,0.49579478727461274
+Gradient boosting,4,1,0.04637390058874793
+Gradient boosting,4,1,0.9840857202263709
+Gradient boosting,4,1,0.9586564116254098
+Gradient boosting,4,1,0.9830467338827905
+Gradient boosting,4,0,0.8028240657252725
+Gradient boosting,4,1,0.986706080124141
+Gradient boosting,4,1,0.9785605816177967
+Gradient boosting,4,0,0.5929200429249101
+Gradient boosting,4,1,0.9621722428735937
+Gradient boosting,4,1,0.8953769651696548
+Gradient boosting,4,1,0.8205830930546766
+Gradient boosting,4,0,0.8275962461908185
+Gradient boosting,4,1,0.9905617514259414
+Gradient boosting,4,0,0.9061612678168532
+Gradient boosting,4,1,0.16944172314853645
+Gradient boosting,4,1,0.8002307507085806
+Gradient boosting,4,1,0.9065989480487753
+Gradient boosting,4,1,0.8054122913791824
+Gradient boosting,4,0,0.8466013350946382
+Gradient boosting,4,0,0.9309938029548139
+Gradient boosting,4,1,0.4738349551796244
+Gradient boosting,4,0,0.28758975426783917
+Gradient boosting,4,1,0.1951731638075526
+Gradient boosting,4,1,0.17047952294139768
+Gradient boosting,4,1,0.9850840695280868
+Gradient boosting,4,1,0.9073637763677455
+Gradient boosting,4,1,0.41576970646800526
+Gradient boosting,4,1,0.3980572877674041
+Gradient boosting,4,0,0.011189203738241029
+Gradient boosting,4,1,0.8639134270014257
+Support vector machine,4,0,0.5950155575124191
+Support vector machine,4,1,0.7091654577063264
+Support vector machine,4,1,0.6581206324881298
+Support vector machine,4,0,0.6121688946100102
+Support vector machine,4,1,0.7383621782370903
+Support vector machine,4,0,0.7652910742839708
+Support vector machine,4,1,0.7291576239947569
+Support vector machine,4,0,0.678742847353273
+Support vector machine,4,1,0.7413790037234953
+Support vector machine,4,1,0.8397215302118742
+Support vector machine,4,1,0.7794770501418175
+Support vector machine,4,1,0.6897359917883211
+Support vector machine,4,0,0.6976125177483647
+Support vector machine,4,1,0.8269475636971991
+Support vector machine,4,1,0.7063448549185115
+Support vector machine,4,0,0.7384107319335971
+Support vector machine,4,1,0.7090998841346777
+Support vector machine,4,1,0.7649535803300823
+Support vector machine,4,1,0.6076166276548832
+Support vector machine,4,0,0.42343284663267966
+Support vector machine,4,1,0.7641752525748385
+Support vector machine,4,0,0.5369131338628468
+Support vector machine,4,1,0.48400983323112196
+Support vector machine,4,1,0.621268620010463
+Support vector machine,4,1,0.6814489544020346
+Support vector machine,4,1,0.7587551129070131
+Support vector machine,4,0,0.7813640339954685
+Support vector machine,4,0,0.6578113603022288
+Support vector machine,4,1,0.6201019698541539
+Support vector machine,4,0,0.49474475673886137
+Support vector machine,4,1,0.4631714303739756
+Support vector machine,4,1,0.7519269958094744
+Support vector machine,4,1,0.8438617487270302
+Support vector machine,4,1,0.7886349417556578
+Support vector machine,4,1,0.6471059131799313
+Support vector machine,4,1,0.5
+Support vector machine,4,0,0.6210566608774515
+Support vector machine,4,1,0.7621936951270084
+Penalized logistic regression,5,1,0.4982161616483164
+Penalized logistic regression,5,1,0.5044636742641141
+Penalized logistic regression,5,1,0.4958569275520289
+Penalized logistic regression,5,1,0.48173339146714483
+Penalized logistic regression,5,0,0.5430932155633175
+Penalized logistic regression,5,1,0.521555640613117
+Penalized logistic regression,5,1,0.48838135081058587
+Penalized logistic regression,5,1,0.5008118853049462
+Penalized logistic regression,5,0,0.5212943258888846
+Penalized logistic regression,5,1,0.5021874873625025
+Penalized logistic regression,5,1,0.49240836708719826
+Penalized logistic regression,5,0,0.4670722204416073
+Penalized logistic regression,5,0,0.50948378310685
+Penalized logistic regression,5,1,0.5159381701034986
+Penalized logistic regression,5,1,0.507170789210308
+Penalized logistic regression,5,1,0.5019725872703424
+Penalized logistic regression,5,1,0.4912781683264971
+Penalized logistic regression,5,0,0.5085007666985234
+Penalized logistic regression,5,1,0.5083404869579495
+Penalized logistic regression,5,1,0.5124222746721686
+Penalized logistic regression,5,1,0.5161347062249111
+Penalized logistic regression,5,0,0.5325305143493334
+Penalized logistic regression,5,1,0.5005635253246111
+Penalized logistic regression,5,0,0.5049598835887946
+Penalized logistic regression,5,1,0.4670305161464568
+Penalized logistic regression,5,1,0.4675980128173697
+Penalized logistic regression,5,1,0.49947639692978985
+Penalized logistic regression,5,1,0.5014403807351722
+Penalized logistic regression,5,1,0.49878739498117586
+Penalized logistic regression,5,0,0.5066156074946997
+Penalized logistic regression,5,1,0.4781270749772633
+Penalized logistic regression,5,0,0.5009142901549929
+Penalized logistic regression,5,1,0.47657496525794735
+Penalized logistic regression,5,1,0.5059311529721977
+Penalized logistic regression,5,1,0.48590986421379717
+Penalized logistic regression,5,0,0.4771279508679776
+Penalized logistic regression,5,0,0.5159015054137607
+Penalized logistic regression,5,0,0.5221938475975433
+Random forest,5,1,0.6282018243225718
+Random forest,5,1,0.7016816244367546
+Random forest,5,1,0.721174253129301
+Random forest,5,1,0.45392609060498984
+Random forest,5,0,0.38474772585141875
+Random forest,5,1,0.6364931097032988
+Random forest,5,1,0.5525654049706221
+Random forest,5,1,0.7291802571092941
+Random forest,5,0,0.36257063646375437
+Random forest,5,1,0.7922904314401205
+Random forest,5,1,0.7383124763837811
+Random forest,5,0,0.45002343476570944
+Random forest,5,0,0.5646706063628822
+Random forest,5,1,0.7224744829939642
+Random forest,5,1,0.6280961619326313
+Random forest,5,1,0.7472943518948966
+Random forest,5,1,0.6347260144474618
+Random forest,5,0,0.4042907596659199
+Random forest,5,1,0.5892023899618052
+Random forest,5,1,0.5894200839771611
+Random forest,5,1,0.5742447691530973
+Random forest,5,0,0.40379550260473146
+Random forest,5,1,0.6391629794390701
+Random forest,5,0,0.5482615296281766
+Random forest,5,1,0.5345512558135421
+Random forest,5,1,0.4919121726797262
+Random forest,5,1,0.7317559734781033
+Random forest,5,1,0.6546460983776378
+Random forest,5,1,0.35121569557480925
+Random forest,5,0,0.5557803789413966
+Random forest,5,1,0.48756251897577046
+Random forest,5,0,0.4241692155286505
+Random forest,5,1,0.5869537044739033
+Random forest,5,1,0.5809728864118597
+Random forest,5,1,0.46808046111850055
+Random forest,5,0,0.5182896645306713
+Random forest,5,0,0.370233587475805
+Random forest,5,0,0.5420564884315042
+Gradient boosting,5,1,0.769513707613201
+Gradient boosting,5,1,0.9733014862382203
+Gradient boosting,5,1,0.9454486645390014
+Gradient boosting,5,1,0.9667580226404493
+Gradient boosting,5,0,0.020259258731251076
+Gradient boosting,5,1,0.988632444832592
+Gradient boosting,5,1,0.16895899558572716
+Gradient boosting,5,1,0.9879520994053894
+Gradient boosting,5,0,0.6557039516675257
+Gradient boosting,5,1,0.9928031834574806
+Gradient boosting,5,1,0.9994207783628336
+Gradient boosting,5,0,0.9766667078276595
+Gradient boosting,5,0,0.1450477089707481
+Gradient boosting,5,1,0.9995095036868828
+Gradient boosting,5,1,0.7745836166480974
+Gradient boosting,5,1,0.9940336020919477
+Gradient boosting,5,1,0.9933553341882172
+Gradient boosting,5,0,0.022714916621695204
+Gradient boosting,5,1,0.6689209200040378
+Gradient boosting,5,1,0.9540714613477567
+Gradient boosting,5,1,0.9034383126534888
+Gradient boosting,5,0,0.6132467722360977
+Gradient boosting,5,1,0.8134558262947039
+Gradient boosting,5,0,0.3071643855520549
+Gradient boosting,5,1,0.911813944876343
+Gradient boosting,5,1,0.6824721983032904
+Gradient boosting,5,1,0.9321810466003845
+Gradient boosting,5,1,0.9163186860439245
+Gradient boosting,5,1,0.4510138750153492
+Gradient boosting,5,0,0.7561810765236572
+Gradient boosting,5,1,0.5286687089184297
+Gradient boosting,5,0,0.9496375935127105
+Gradient boosting,5,1,0.7822746987589635
+Gradient boosting,5,1,0.7957678931672825
+Gradient boosting,5,1,0.5607505202952522
+Gradient boosting,5,0,0.429618200054319
+Gradient boosting,5,0,0.05646123337183612
+Gradient boosting,5,0,0.7363122558323077
+Support vector machine,5,1,0.6953636682315388
+Support vector machine,5,1,0.6785393134235904
+Support vector machine,5,1,0.6862120932500199
+Support vector machine,5,1,0.6849307964366125
+Support vector machine,5,0,0.6822498273399891
+Support vector machine,5,1,0.6900337004163634
+Support vector machine,5,1,0.6729820549320429
+Support vector machine,5,1,0.6922956401094725
+Support vector machine,5,0,0.6827207365627316
+Support vector machine,5,1,0.6940131012885126
+Support vector machine,5,1,0.6808958597858692
+Support vector machine,5,0,0.6704169893763101
+Support vector machine,5,0,0.678930754058703
+Support vector machine,5,1,0.6930224957382803
+Support vector machine,5,1,0.6865506121456919
+Support vector machine,5,1,0.6831687382820072
+Support vector machine,5,1,0.6941939649684254
+Support vector machine,5,0,0.6667138725581429
+Support vector machine,5,1,0.6840342273255793
+Support vector machine,5,1,0.6851290089136806
+Support vector machine,5,1,0.6938178249645639
+Support vector machine,5,0,0.685773235608832
+Support vector machine,5,1,0.68248203278374
+Support vector machine,5,0,0.678857307684857
+Support vector machine,5,1,0.6731923618386881
+Support vector machine,5,1,0.6821633000263907
+Support vector machine,5,1,0.6848563426855782
+Support vector machine,5,1,0.6802139267886873
+Support vector machine,5,1,0.6697632309095624
+Support vector machine,5,0,0.6848856459013182
+Support vector machine,5,1,0.6831498108474992
+Support vector machine,5,0,0.689996109387452
+Support vector machine,5,1,0.6795085111269191
+Support vector machine,5,1,0.681424939845516
+Support vector machine,5,1,0.67499834959187
+Support vector machine,5,0,0.6750282641349185
+Support vector machine,5,0,0.6828046475882236
+Support vector machine,5,0,0.6878827404682557
