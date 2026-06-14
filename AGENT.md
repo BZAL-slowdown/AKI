@@ -158,11 +158,12 @@ Expected outputs:
 - 2026-06-14: Agent 4 created `second_revision_submission_package` with S1-S3 supplementary tables, S1-S4 supplementary figures, source-file copies, and `supplementary_materials_manifest.md`; calibration and DCA are explicitly labeled as internal classical-baseline evidence only, not final multimodal-model clinical-utility proof.
 - 2026-06-14: Project Lead assigned the next two integration tasks: Agent 4 will prepare the second-revision supplementary tables/figures package from Agent 2 outputs, and Agent 3 will update reproducibility notes so `second_revision_analysis.py` can be rerun from the local project.
 - 2026-06-14: Agent 3 updated `aki-master\aki-master\README_REPRODUCIBILITY.md` for `second_revision_analysis.py`, documenting run commands, local-only raw data/image requirements, dependencies, reviewer-facing files in `second_revision_results`, and `.gitignore` behavior for scripts, results, raw data, model weights, and archives.
+- 2026-06-14: Project Lead created the final second-revision integration package under `second_revision_integrated`, including a formal response letter, clean revised manuscript, revised supporting information, markdown response mirror, change log, strict consistency audit, and the reproducible generation script `tools/generate_second_revision_integration.py`.
 
 ## Immediate Next Steps
 
-1. Agent 4 is preparing the supplementary tables/figures package for the second revision.
-2. Agent 3 is updating reproducibility notes for `second_revision_analysis.py`.
-3. The Project Lead should review Agent 4 and Agent 3 outputs, then integrate the formal `Response to Reviewers` document.
-4. The Project Lead should revise the manuscript using Agent 1's edit map and only verified Agent 2 evidence.
-5. The Project Lead should commit and push every meaningful checkpoint to GitHub.
+1. Project Lead should manually review the Word files in `second_revision_integrated` for final formatting, pagination, and journal-specific upload polish.
+2. Decide whether to include optional `S3 Fig` ROC and `S4 Fig` precision-recall figures in the final upload; if excluded, renumber captions consistently.
+3. If Word track changes are required by the journal, use Word's Compare feature between the previous manuscript and `Manuscript_Second_Revision_Clean.docx`.
+4. Final submission package should include the formal response letter, revised manuscript, revised supporting information, selected supplementary tables/figures, and the appropriate figure files.
+5. Project Lead should commit and push every meaningful checkpoint to GitHub.
