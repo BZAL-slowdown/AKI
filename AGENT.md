@@ -156,6 +156,7 @@ Expected outputs:
 - 2026-06-14: Agent 1 read the second reviewer report, first-round response format, revised manuscript, track-changes manuscript, and supporting information; drafted `agent1_second_round_response_strategy.md` with point-by-point response strategy, exact manuscript edit targets, claim-tempering guidance, and evidence requests for Agent 2.
 - 2026-06-14: Agent 1 integrated Agent 2's verified baseline/calibration/DCA/robustness outputs into reviewer-response strategy; created `second_revision_response_draft.md` with response-letter paragraphs, manuscript edit locations, and proposed supplementary tables/figures, and updated `agent1_second_round_response_strategy.md` with the real internal-validation results.
 - 2026-06-14: Project Lead assigned the next two integration tasks: Agent 4 will prepare the second-revision supplementary tables/figures package from Agent 2 outputs, and Agent 3 will update reproducibility notes so `second_revision_analysis.py` can be rerun from the local project.
+- 2026-06-14: Agent 3 updated `aki-master\aki-master\README_REPRODUCIBILITY.md` for `second_revision_analysis.py`, documenting run commands, local-only raw data/image requirements, dependencies, reviewer-facing files in `second_revision_results`, and `.gitignore` behavior for scripts, results, raw data, model weights, and archives.
 
 ## Immediate Next Steps
 
