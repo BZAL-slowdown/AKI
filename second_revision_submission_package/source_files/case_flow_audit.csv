@@ -1,0 +1,2 @@
+﻿input_rows,excluded_missing_sequence_or_outcome,analysis_rows,outcome_positive,outcome_negative,outcome_column,sequence_column,data_path,image_dir,feature_set
+194,1,193,132,61,急性肾损伤术后,序号,D:\AKI\aki-master\aki-master\data\data.xlsx,D:\AKI\aki-master\aki-master\data\images,primary
