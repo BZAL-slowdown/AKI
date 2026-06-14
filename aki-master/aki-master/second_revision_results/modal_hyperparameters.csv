@@ -1,0 +1,5 @@
+﻿model,modal_params_from_primary_cv
+Penalized logistic regression,"{""model__C"": 10.0, ""model__penalty"": ""l1""}"
+Random forest,"{""model__max_depth"": 3, ""model__max_features"": null, ""model__min_samples_leaf"": 2}"
+Gradient boosting,"{""model__learning_rate"": 0.05, ""model__max_depth"": 3, ""model__min_samples_leaf"": 5, ""model__n_estimators"": 50}"
+Support vector machine,"{""model__C"": 3.0, ""model__gamma"": 0.1}"

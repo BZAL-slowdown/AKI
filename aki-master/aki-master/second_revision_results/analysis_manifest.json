@@ -1,0 +1,21 @@
+{
+  "random_seed": 20260614,
+  "outer_folds": 5,
+  "inner_folds": 3,
+  "robustness_repeats": 5,
+  "bootstrap_replicates": 1000,
+  "features": [
+    "年龄",
+    "高血压（入院血压）",
+    "糖尿病（术前血糖）",
+    "是否独肾",
+    "血糖（术前）",
+    "尿素氮（术前）",
+    "乳酸（术前）",
+    "肌酐（术前）",
+    "AST（术前）",
+    "中性粒细胞（术前）",
+    "白细胞（术前）"
+  ],
+  "note": "Predictions file omits patient IDs and sequence numbers."
+}
