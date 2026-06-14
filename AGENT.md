@@ -146,6 +146,7 @@ Expected outputs:
 - 2026-06-14: Project contents reviewed. The workspace was identified as a PLOS ONE second-revision package plus AKI multimodal few-shot model code/data/results.
 - 2026-06-14: Second-round reviewer concerns summarized: external validity/overfitting, incomplete clinical variables, model complexity, insufficient baseline comparisons, calibration/DCA, and claim tempering.
 - 2026-06-14: Coordination file `AGENT.md` created. GitHub remote target recorded as `https://github.com/BZAL-slowdown/AKI.git`.
+- 2026-06-14: Agent 4 completed a figure/submission-format audit in `Agent4_Figure_Submission_Audit.md`; current Fig 1 needs 300-600 dpi re-export, current Fig 7-10 should be replaced if Agent 2 revises performance/SHAP outputs, and calibration/DCA/baseline comparison materials are still pending Agent 2 evidence.
 - 2026-06-14: Four subagent threads created: Agent 1 Reviewer Response, Agent 2 Statistical Analysis, Agent 3 Reproducibility, and Agent 4 Figures/Submission.
 - 2026-06-14: Git repository initialized at `D:\AKI`; initial code/manuscript/figure coordination backup committed and pushed to GitHub `main`. Raw clinical data, raw case images, model weights, archives, caches, and generated large result folders were intentionally excluded from the first push.
 
