@@ -1,96 +1,105 @@
 # shap/shap_runner.py
-import sys, os
+import os
 import subprocess
-import numpy as np
+import sys
+from pathlib import Path
 
-# 确保能导入项目根目录下的模块
-sys.path.insert(0, os.path.abspath('..'))
-from config import config
 
-# 要依次执行的脚本（相对于当前 shap/ 目录）
-scripts = [
+SHAP_DIR = Path(__file__).resolve().parent
+PROJECT_ROOT = SHAP_DIR.parent
+os.chdir(SHAP_DIR)
+sys.path.insert(0, str(PROJECT_ROOT))
+
+
+SCRIPTS = [
     "1_load_model.py",
     "2_prepare_data.py",
     "3_run_shap.py",
-    "4_visualize_shap.py"
+    "4_visualize_shap.py",
 ]
 
-# 运行单个脚本的辅助函数
-# interactive=True 时不捕获输出，允许交互式输入
+
 def run(script, interactive=False):
-    print(f"\n>>> 正在执行：{script}")
-    cmd = [sys.executable, script]
+    print(f"\n>>> Running {script}")
+    cmd = [sys.executable, str(SHAP_DIR / script)]
     if interactive:
-        # 直接运行，输出实时打印
         proc = subprocess.run(cmd)
         if proc.returncode != 0:
             sys.exit(proc.returncode)
     else:
-        # 捕获输出
-        result = subprocess.run(cmd, capture_output=True, text=True)
+        result = subprocess.run(
+            cmd,
+            capture_output=True,
+            text=True,
+            encoding="utf-8",
+            errors="replace",
+        )
         if result.returncode != 0:
-            print("❌ 执行失败！错误信息如下：")
+            print("[ERROR] Script failed:")
             print(result.stderr)
-            sys.exit(1)
-        else:
-            # 打印子进程标准输出
-            print(result.stdout.strip())
+            sys.exit(result.returncode)
+        print(result.stdout.strip())
 
-# 校验生成文件完整性的函数
+
 def validate_outputs():
     required_inputs = ["X_val.npy", "X_tab_sample.npy"]
-    # 如果有图像分支
-    if os.path.exists("X_img_sample.npy"):
+    if (SHAP_DIR / "X_img_sample.npy").exists():
         required_inputs.append("X_img_sample.npy")
-    missing = [f for f in required_inputs if not os.path.exists(f)]
+
+    missing = [name for name in required_inputs if not (SHAP_DIR / name).exists()]
     if missing:
-        print(f"❌ 缺少必要输入文件：{missing}")
+        print(f"[ERROR] Missing required input files: {missing}")
         sys.exit(1)
 
-    shap_outputs = []
-    if os.path.exists("shap_tab_values.npy"): shap_outputs.append("shap_tab_values.npy")
-    if os.path.exists("shap_img_values.npy"): shap_outputs.append("shap_img_values.npy")
+    shap_outputs = [
+        name for name in ("shap_tab_values.npy", "shap_img_values.npy")
+        if (SHAP_DIR / name).exists()
+    ]
     if not shap_outputs:
-        print("❌ 未生成任何 SHAP 输出文件，请检查 3_run_shap.py 的执行情况")
+        print("[ERROR] No SHAP output files were generated; check 3_run_shap.py.")
         sys.exit(1)
 
-    print(f"[✓] 输入和 SHAP 输出文件均已生成：\n  inputs: {required_inputs}\n  outputs: {shap_outputs}")
+    print(
+        "[OK] Required inputs and SHAP outputs are present:\n"
+        f"  inputs: {required_inputs}\n"
+        f"  outputs: {shap_outputs}"
+    )
+
+
+def print_matching_files(*patterns):
+    for pattern in patterns:
+        for path in sorted(SHAP_DIR.glob(pattern)):
+            if path.is_file():
+                print(f"{path.name}\t{path.stat().st_size} bytes")
 
 
 if __name__ == "__main__":
-    print("🚀 开始运行 SHAP 分析流程...")
+    full_visualization = len(sys.argv) > 1 and sys.argv[1] in ("--full", "-f")
+    if len(sys.argv) > 1 and sys.argv[1] in ("--help", "-h"):
+        print("Usage:")
+        print("  python shap_runner.py")
+        print("  python shap_runner.py --full")
+        sys.exit(0)
 
-    # 解析命令行参数
-    full_visualization = False
-    if len(sys.argv) > 1:
-        if sys.argv[1] in ("--full", "-f"):
-            full_visualization = True
-            print("模式: 完整可视化（包含所有图表和交互式HTML）")
-        elif sys.argv[1] in ("--help", "-h"):
-            print("用法:")
-            print("  python shap_runner.py       # 基础模式")
-            print("  python shap_runner.py --full # 完整可视化模式")
-            sys.exit(0)
+    print("Starting SHAP analysis pipeline...")
+    if full_visualization:
+        print("Mode: full visualization")
 
-    # 执行流程
-    for idx, script in enumerate(scripts):
-        if script == "3_run_shap.py":
-            run(script, interactive=True)
-        else:
-            run(script)
-
-        if idx == 2:  # 在第三步后验证
+    for idx, script in enumerate(SCRIPTS):
+        run(script, interactive=(script == "3_run_shap.py"))
+        if idx == 2:
             validate_outputs()
 
-    # 在完整模式下添加额外可视化
     if full_visualization:
-        print("\n🔍 生成额外可视化...")
-        extra_script = "4_visualize_shap.py"  # 确保它包含所有新增的可视化代码
-        run(extra_script)
+        print("\nGenerating extra visualizations...")
+        run("4_visualize_shap.py")
 
-    print("\n[✅] 全部 SHAP 分析步骤已完成")
-    print("生成的文件:")
-    subprocess.run(["ls", "-lh", "shap_*", "X_*"], check=False)
-    if full_visualization and os.path.exists("shap_img_plots"):
-        print("\n图像SHAP可视化:")
-        subprocess.run(["ls", "-lh", "shap_img_plots"], check=False)
+    print("\n[OK] SHAP analysis pipeline finished.")
+    print("Generated files:")
+    print_matching_files("shap_*", "X_*")
+    plot_dir = SHAP_DIR / "shap_img_plots"
+    if full_visualization and plot_dir.exists():
+        print("\nImage SHAP plots:")
+        for path in sorted(plot_dir.glob("*")):
+            if path.is_file():
+                print(f"{path.name}\t{path.stat().st_size} bytes")
