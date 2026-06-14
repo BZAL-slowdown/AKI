@@ -149,6 +149,7 @@ Expected outputs:
 - 2026-06-14: Agent 4 completed a figure/submission-format audit in `Agent4_Figure_Submission_Audit.md`; current Fig 1 needs 300-600 dpi re-export, current Fig 7-10 should be replaced if Agent 2 revises performance/SHAP outputs, and calibration/DCA/baseline comparison materials are still pending Agent 2 evidence.
 - 2026-06-14: Four subagent threads created: Agent 1 Reviewer Response, Agent 2 Statistical Analysis, Agent 3 Reproducibility, and Agent 4 Figures/Submission.
 - 2026-06-14: Git repository initialized at `D:\AKI`; initial code/manuscript/figure coordination backup committed and pushed to GitHub `main`. Raw clinical data, raw case images, model weights, archives, caches, and generated large result folders were intentionally excluded from the first push.
+- 2026-06-14: Project Lead assigned the first active revision task to Agent 2: baseline model comparison, calibration analysis, decision-curve analysis, and robustness evidence for the second-round reviewer comments.
 - 2026-06-14: Agent 3 completed a reproducibility cleanup pass under `D:\AKI\aki-master\aki-master`: replaced hard-coded legacy paths in `config.py` with project-relative paths, set the default checkpoint to the existing `model\aki_model（0.816）.pt`, rewrote `shap\shap_runner.py` to be Windows/cwd-safe, and added `README_REPRODUCIBILITY.md` plus `requirements-repro.txt`.
 - 2026-06-14: Agent 2 added and ran `aki-master\aki-master\second_revision_baselines.py`, producing an auditable 193-case internal-CV baseline comparison, calibration plots/metrics, decision-curve analysis, image-availability audit, and short revision notes under `aki-master\aki-master\revision_outputs\second_revision_baselines`; best classical baseline was gradient boosting with AUC 0.636 (bootstrap 95% CI 0.548-0.718), supporting restrained internal-validation claims only.
 
@@ -156,8 +157,8 @@ Expected outputs:
 
 ## Immediate Next Steps
 
-1. Agent 2 should produce baseline, calibration, DCA, and robustness evidence first.
-2. Agent 3 should prepare reproducibility notes and minimal path/encoding fixes.
-3. Agent 1 should draft the response using only verified evidence.
+1. Agent 2 is actively producing baseline, calibration, DCA, and robustness evidence.
+2. Agent 3 should prepare reproducibility notes and minimal path/encoding fixes after Agent 2's analysis script exists.
+3. Agent 1 should draft the response using only verified evidence from Agent 2.
 4. Agent 4 should update figure/submission checklists after new evidence exists.
 5. The Project Lead should integrate accepted outputs, commit them, and push every meaningful checkpoint to GitHub.
