@@ -1,0 +1,35 @@
+# Python/cache artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# IDE/project-local metadata
+.idea/
+.vscode/
+*.iml
+
+# Archives and temporary bundles
+*.zip
+*.7z
+*.rar
+
+# Large model/checkpoint artifacts
+*.pt
+*.pth
+*.ckpt
+*.pkl
+
+# Raw/private clinical data
+aki-master/aki-master/data/
+
+# Generated/local output that can be recreated
+aki-master/aki-master/result/
+aki-master/aki-master/shap/*.npy
+aki-master/aki-master/shap/*.pt
+aki-master/aki-master/shap/*.pkl
+
+# OS files
+Thumbs.db
+.DS_Store
