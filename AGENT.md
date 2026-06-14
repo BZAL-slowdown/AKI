@@ -146,11 +146,13 @@ Expected outputs:
 - 2026-06-14: Project contents reviewed. The workspace was identified as a PLOS ONE second-revision package plus AKI multimodal few-shot model code/data/results.
 - 2026-06-14: Second-round reviewer concerns summarized: external validity/overfitting, incomplete clinical variables, model complexity, insufficient baseline comparisons, calibration/DCA, and claim tempering.
 - 2026-06-14: Coordination file `AGENT.md` created. GitHub remote target recorded as `https://github.com/BZAL-slowdown/AKI.git`.
+- 2026-06-14: Four subagent threads created: Agent 1 Reviewer Response, Agent 2 Statistical Analysis, Agent 3 Reproducibility, and Agent 4 Figures/Submission.
+- 2026-06-14: Git repository initialized at `D:\AKI`; initial code/manuscript/figure coordination backup committed and pushed to GitHub `main`. Raw clinical data, raw case images, model weights, archives, caches, and generated large result folders were intentionally excluded from the first push.
 
 ## Immediate Next Steps
 
-1. Initialize Git at `D:\AKI`, commit current project state, and push to GitHub if authentication succeeds.
-2. Create subagent threads for the four assignments above.
-3. Agent 2 should produce baseline, calibration, DCA, and robustness evidence first.
-4. Agent 1 should draft the response using only verified evidence.
-5. Agent 4 should update figure/submission checklists after new evidence exists.
+1. Agent 2 should produce baseline, calibration, DCA, and robustness evidence first.
+2. Agent 3 should prepare reproducibility notes and minimal path/encoding fixes.
+3. Agent 1 should draft the response using only verified evidence.
+4. Agent 4 should update figure/submission checklists after new evidence exists.
+5. The Project Lead should integrate accepted outputs, commit them, and push every meaningful checkpoint to GitHub.
